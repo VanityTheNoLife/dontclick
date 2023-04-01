@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Don't Click!</title>
+</head>
+<body>
+
+	<div style="text-align:center;">
+		<button onclick="playAudio()">Don't Click!</button>
+	</div>
+
+	<audio id="audio" src="whydidyouclick.mp3"></audio>
+
+	<script>
+		function playAudio() {
+			var audio = document.getElementById("audio");
+			audio.play();
+		}
+	</script>
+
+</body>
+</html>
